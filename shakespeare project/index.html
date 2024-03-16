@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shakespeare project</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" >
+
+
+</head>
+<body>
+    <section class="header">
+        <nav>
+           
+             <a href="index.html"><img src="images/shakespeare logo_1.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-close" onclick="hideMenu()"></i>  
+                <ul>
+                    <li><a href="index.html">HOME</a> </li>
+                    <li> <a href="about.html">ABOUT</a> </li>
+                    <li> <a href="plays.html">PLAYS</a> </li>
+                    <li> <a href="contact.html">CONTACT</a></li> 
+              </ul>
+          </div>
+          <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+      <div class="text-box">
+        <h1>Shakespeare project</h1>
+        <p>Explore the works and legacy of this literary giant of the world, in an unforgettable digital experience. </p>
+        <a href="contact.html" class="hero-btn">Visit Us To know More</a>
+    </div>
+    </section>
+
+<!---------- course ----------->
+
+<section class="plays">
+    <h1>Plays</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <div class="row">
+        <div class="plays-col">
+            <h3>Intermediate</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend faucibus est sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus Donec sit.</p>
+        </div>
+        <div class="plays-col">
+            <h3>Degree</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend faucibus est sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus Donec sit.</p>
+        </div>
+        <div class="plays-col">
+            <h3>Post Graduation</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend faucibus est sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus Donec sit.</p>
+        </div>
+    </div>
+</section>
+
+<!---------- campus ---------->
+    
+    <section class="campus">
+        <h1>What are we goig to talk about</h1>
+        
+            <div class="row">
+                <div class="campus-col">
+                    <img src="plays/romeo and julieta.jpeg">
+                    <div class="layer">
+                        <h3>Romeo and Juliet</h3>
+                    </div>
+                </div>
+                <div class="campus-col">
+                    <img src="plays/Hamlet.jpg">
+                    <div class="layer">
+                        <h3>Hamlet</h3>
+                    </div>
+                </div>
+                <div class="campus-col">
+                    <img src="plays/Twelfth-Night.webp">
+                    <div class="layer">
+                        <h3>Twelfth-Night</h3>
+                    </div>
+                </div>
+                <div class="campus-col">
+                    <img src="plays/midsummer night's dream.jpeg">
+                    <div class="layer">
+                        <h3>Midsummer night's dream</h3>
+                    </div>
+                </div>
+                <div class="campus-col">
+                    <img src="plays/Macbeth.jpeg">
+                    <div class="layer">
+                        <h3>Macbeth</h3>
+                    </div>
+                </div>
+
+            </div>
+    </section>
+
+
+    
+    <!-------- footer ---------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend faucibus est<br>sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus.</p>
+    <div class="icons">
+        <a href="https://www.youtube.com/c/EasyTutorialsVideo?sub_confirmation=1"><i class="fa fa-facebook"></i></a>
+        <a href="https://www.youtube.com/c/EasyTutorialsVideo?sub_confirmation=1"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.instagram.com/invites/contact/?i=14ewk36ln6g8j&utm_content=tyrcqd5"><i class="fa fa-instagram"></i></a>
+        <a href="https://www.youtube.com/c/EasyTutorialsVideo?sub_confirmation=1"><i class="fa fa-linkedin"></i></a>
+        
+    </div>
+    <a href="https://www.youtube.com/c/EasyTutorialsVideo?sub_confirmation=1" class="footer-link"><p>made with <i class="fa fa-heart-o"></i> by Our group</p></a>
+</section>   
+
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+
+</body>
+</html>
